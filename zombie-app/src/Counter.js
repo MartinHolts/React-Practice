@@ -2,16 +2,16 @@
 import React, { useState } from 'react';
 
 const Counter = () => {
-  const [count, setCount] = useState(0);
+  const [zombieCount, setZombieCount] = useState(0);
 
-  const increment = () => {
-    setCount(count + 1);
+  const defeatZombie = () => {
+    setZombieCount(zombieCount + 1);
   };
 
   return (
     <div>
-      <h2>Counter: {count}</h2>
-      <button onClick={increment}>Increment</button>
+      <h2>Zombies Defeated: {zombieCount}</h2>
+      <button onClick={defeatZombie}>Defeat Zombie</button>
     </div>
   );
 };
