@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import Counter from './Counter';
+import Counter from './components/counter/Counter';
 
 function App() {
   return (
